@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.la{
+    font-size: 30px;
+}
+.container1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+section{
+    /* background-color: rgb(187, 151, 104); */
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #513794;
+    color: #efeee5;  
+}
+header{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    background-color: #513794;
+    color: #efeee5;
+}
+.head2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+    /* border-bottom: 1px solid white; */
+}
+.head3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card{
+    box-shadow: inset 3px 0px 0px 0px #513794;
+    padding: 10px;
+    border-radius: 5px;
+    font-family:sans-serif;
+    font-weight: bolder;
+    transition: 1s ;
+}
+.card:hover,a:hover{
+    transition: all;
+    padding: 5px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+    gap: 20px;
+}
+a,li{
+    list-style-type: none;
+    text-decoration: none;
+    color: #513794;
+}
+@media screen and (max-width:800px) {
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* margin: 0px 30px 0px 30px; */
+        gap: 20px;
+}
+.card{
+    /* box-shadow: inset 3px 0px 0px 0px #513794; */
+    padding: 10px;
+    border-radius: 5px;
+    font-family:sans-serif;
+    font-weight: bolder;
+    transition: 1s ;
+}
+}
+@media screen and (max-width:350px) {
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0px 30px 0px 30px;
+        gap: 20px;
+}
+}
+    

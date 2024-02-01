@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lineawesome/lineawesome/css/line-awesome.css">
+	<script src="jquery.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+       .image{
+        display: flex;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        padding: 10px;
+        opacity: 0.5;
+
+       }
+       .card{
+        padding: 50px 20px 50px 20px;
+        width: 250px;
+        height: 400px;
+        justify-content: center;
+        font-size: 40px;
+        font-family: monospace;
+        color: #513794;
+        background-image: linear-gradient(45deg, #513794, white);
+       }
+        li{
+            list-style: none;
+            font-size: 20px;
+        }
+        #col1,#col2{
+            width: 100%;
+        }
+        #col1{
+            /* background-image: url('./images/payment.gif'); */
+            background-repeat: no-repeat;
+            background-size: 100%;
+            /* height: 80vh; */
+            /* opacity: 0.7; */
+        }
+        .image{
+            text-align: center;
+        }
+        
+        img{
+            opacity: 0.5;
+        }
+        ol li{
+            list-style-type: lower-roman;
+        }
+        #h3-2{   
+                display: none;
+            }
+            .header{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                background-color: #513794;
+                color: #efeee5;
+                padding: 10px;
+            }
+            .header a{
+                color:#efeee5;
+                text-decoration: none;
+                
+            }
+            .header a:hover{
+                text-decoration: double underline;
+            }
+            body{
+                background-image: url(./images/money5.jpg);
+                /* background-position: 100%; */
+                background-repeat: no-repeat;
+                background-position-x: center;
+            }
+            .containa{
+                background-color: #513794;
+
+            }
+    </style>
+</head>
+<body style=" background-color: #efeee5;">
+    <header class="">
+        <h2>LOGO</h2>
+        <ul class="header">
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="./control/login">Login</a>
+            </li>
+            <li>
+                <a href="#">Notification <i class="la la-belt"></i></a>
+            </li>
+            
+        </ul>
+
+    </header>
+
+    <div class="containa p-3  text-light">
+        <!-- <div class="row p-3  text-light"> -->
+            <div id="col1" class="col-md- ">
+                <ul class="mb-5">
+                    <h3 class="text-center  mt-3"><span ><li style="color:goldenrod;" class="text-center "><u><i><b> <h1>Adashe Wallet</h1></b></i></u></li> </b></i></span><br> Hanya Mafi Sauki da zakuyi
+                        Adashe Ba Tare da Zato Ba Ko Tunanin Wani Abu  Na Runto Ba <br>
+                        <span class="text-dark">Kana Gida Zaka Shiga Manhajar Mu kaga Abunda Ake Ciki</span> <br>
+                        <span class="text-danger">Muna maku Godiya Ta Musamman Da Zabar Wannan Manhajar Mai Albarka</span>
+                   </h3>
+                <li style="font-family: sans-serif;">Adashe Wallet Wata hanya ce da zaku yi amfani da ita domin ajiye kudin ku
+                    na adashe ba tare da kunsha wahala ba ko wani abu maka mancin wanda yake faruwa lokacin adashe
+
+                </li>
+                </ul>  
+            </div>
+            <div id="col2" class="col-md- bg-dark mt-3 p-5">
+                <ul>
+                    <li>
+                        <p>Abubuwan da man hajar mu take yi harma da wadanda bamu lissafa ba</h3>
+                        <ol type="i" style="color: white;">
+                            <li>Yana gayama <span style="color: red;">total</span>din abunda ke ciki</li>
+                            <li>Yana gayama sauran abunda ya raje na wane dan adashe</li>
+                            <li>Zaku Iya sanya kudi</li>
+                            <li>zaku iya fiddawa</li>
+                            <li>zai ajiye maku bayanan sanyawa dana fiddawa awaje daban daban</li>
+                           <li>Da sauran su</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h3 class="text-center text-dark">Sample</h3>
+        <!-- <div class="image"  style="background-image: url('./images/money4.jpg'); ">
+            <div class="card">Wallet Balance: 0.00</div>
+            <div class="card">Total Users 18</div>
+            <div class="card">Total Credit: 4736.00</div>
+            <div class="card">Total Debit: 2842.00</div>
+        </div> -->
+    </div>
+    <footer class="bg-primary p-3 mt-5">
+        <p class="text-center text-light"><u><i><b>&copy; 2023 mikk computers o8137005444 muhammaduisa1122@gmail.com</b></i></u></p>
+    </footer>
+	<--<script>
+		$(document).ready(function(){
+		//alert('hello adashe');
+		//$('.menus').hide();
+		$('#bars').click(function(){
+			$('.menus').toggle();
+		})
+		//$('#bars').click(function(){
+			$('.menus').show();
+		})
+		})
+	</script>-->
+</body>
+</html>
